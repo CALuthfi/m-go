@@ -1,13 +1,11 @@
 import React from "react";
-
 import Nav from "../../components/Nav";
-import Card from "../../components/card";
-import Cards from "../../components/cards";
+import Awws from "../../components/awws";
 function Home() {
   return (
-    <div>
-      <Nav />
-      <Cards />
+    <div className="ee">
+      <Nav judul="Go-Order" />
+      <Awws />
     </div>
   );
 }

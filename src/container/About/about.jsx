@@ -1,14 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import Nav from "../../components/Nav";
-import Card from "../../components/card";
+import Cards from "../../components/cards";
 
-function About() {
-  return (
-    <div>
-      <Nav />
-      <Card />
-    </div>
-  );
+class About extends Component {
+  render() {
+    return (
+      <div>
+        <Nav judul="Restorant" />
+        <Cards />
+      </div>
+    );
+  }
 }
-
 export default About;

@@ -71,19 +71,12 @@ class Call extends Component {
           container
           spacing={24}
           style={{
-            paddingTop: 10,
-            paddingBottom: "10%",
             alignItems: "center"
           }}
         >
           {this.state.malls.map(mall => (
-            <Grid item xs={12} sm={3}>
-              <Card
-                gambar={mall.gambar}
-                toko={mall.toko}
-                jalan={mall.jalan}
-                pilihResto={() => this.pilihResto(mall.id)}
-              />
+            <Grid item xs={6} sm={12}>
+              <Card gambar={mall.gambar} toko={mall.toko} jalan={mall.jalan} />
             </Grid>
           ))}
         </Grid>
