@@ -9,28 +9,29 @@ class Awws extends Component {
       {
         id: 1,
         gambar:
-          "http://static1.squarespace.com/static/542f26d1e4b0d66c87d2d963/t/569e8ca7df40f33e106c868b/1547761427961/?format=1500w",
-        toko: "Go-jek",
+          "https://cdn5.f-cdn.com/contestentries/13416/1097701/5277-19-1360157166511259eea27ec/Sample%208_thumb900.jpg",
+        toko: "Go-jajan",
         jalan: "Jln.Gunung Pati semarang"
       },
       {
         id: 2,
-        gambar: "https://pbs.twimg.com/profile_images/1287550758/logo_rc.jpg",
-        toko: "Go-Grab",
+        gambar:
+          "https://gerobakjuara.com/wp-content/uploads/2018/12/cropped-Logo-Gerobak-Juara-1024x1024-01.png",
+        toko: "Go-grobak",
         jalan: "Jln.Ngaliyan semarang"
       },
       {
         id: 3,
         gambar:
-          "http://1.bp.blogspot.com/-nDSusRrN9E4/Wb9KT3C0ZlI/AAAAAAAAC_E/iG6aP93M08QX1qMu9pEY600hBvfI52UPgCK4BGAYYCw/s1600/SeafoodRestaurant.png",
-        toko: "Go-Food",
+          "https://image.freepik.com/vecteurs-libre/chef-logo_20448-9.jpg",
+        toko: "Go-makan",
         jalan: "Jln.Ungaran semarang"
       },
       {
         id: 4,
         gambar:
-          "https://b.zmtcdn.com/data/pictures/1/18927771/d24ff7ac258e27c9d704556b06387e6a_featured_v2.jpg",
-        toko: "GO-Cafe",
+          "https://cdn.sribu.com/assets/media/contest_detail/2017/1/desain-logo-untuk-warung-kopi-nongkrong-586d82439d68b11eff4677df/88b1b55b97.jpg",
+        toko: "GO-kopi",
         jalan: "Jln.Mijen semarang"
       }
     ]
@@ -47,7 +48,7 @@ class Awws extends Component {
           }}
         >
           {this.state.malls.map(mall => (
-            <Grid item xs={6} sm={6}>
+            <Grid item xs={12} sm={6}>
               <Aww gambar={mall.gambar} toko={mall.toko} jalan={mall.jalan} />
             </Grid>
           ))}

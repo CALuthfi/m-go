@@ -22,6 +22,7 @@ const styles = {
 
 function ImgMediaCard(props) {
   const { classes } = props;
+
   return (
     <div>
       <Card className={classes.card}>
@@ -38,7 +39,7 @@ function ImgMediaCard(props) {
               alt="Contemplative Reptile"
               className={classes.media}
               image={props.gambar}
-              title="Contemplative Reptile"
+              title={props.toko}
             />
           </Grid>
           <Grid item xs={6}>
@@ -48,7 +49,12 @@ function ImgMediaCard(props) {
               </Typography>
               <Typography component="p">{props.jalan}</Typography>
 
-              <Button size="large" color="primary">
+              <Button
+                variant="contained"
+                color="primary"
+                component={Link}
+                to={`/toko/${props.id}`}
+              >
                 Kunjungi
               </Button>
             </CardContent>

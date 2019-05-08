@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Grid from "@material-ui/core/Grid";
-import Card from "./card";
+import Coba from "./coba";
 
 class Call extends Component {
   state = {
@@ -76,7 +76,7 @@ class Call extends Component {
         >
           {this.state.malls.map(mall => (
             <Grid item xs={6} sm={12}>
-              <Card gambar={mall.gambar} toko={mall.toko} jalan={mall.jalan} />
+              <Coba gambar={mall.gambar} toko={mall.toko} jalan={mall.jalan} />
             </Grid>
           ))}
         </Grid>

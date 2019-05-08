@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Nav from "../../components/Nav";
-import Cards from "../../components/cards";
+import Nav from "../../components/Navbar";
+import Cards from "../../components/cobas";
 
 class About extends Component {
   render() {

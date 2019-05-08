@@ -10,8 +10,8 @@ import Typography from "@material-ui/core/Typography";
 import { Link } from "react-router-dom";
 const styles = {
   card: {
-    Width: 500,
-    height: 500
+    Width: 450,
+    height: 450
   },
   media: {
     // ⚠️ object-fit passis not supported by IE 11.
@@ -26,26 +26,25 @@ const styles = {
 
 function ImgMediaCard(props) {
   const { classes } = props;
+
   return (
-    <CardActionArea tag={Link} to="/about">
+    <CardActionArea component={Link} to="/toko">
       <Card className={classes.card}>
         <CardMedia
           component="img"
           alt="Contemplative Reptile"
           className={classes.media}
           image={props.gambar}
-          title="Contemplative Reptile"
+          title={props.toko}
         />
         <CardContent className={classes.pc}>
           <Typography gutterBottom variant="h5" component="h2">
             {props.toko}
           </Typography>
-          <Typography component="p">{props.jalan}</Typography>
-          <Link to="/about">
-            <Button size="large" color="primary" tag={Link} to="/about">
-              Kunjungi
-            </Button>
-          </Link>
+
+          <Button variant="contained" color="secondary">
+            Kunjungi
+          </Button>
         </CardContent>
       </Card>
     </CardActionArea>

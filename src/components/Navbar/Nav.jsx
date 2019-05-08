@@ -6,6 +6,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import Avatar from "@material-ui/core/Avatar";
+import { Link } from "react-router-dom";
 
 const styles = {
   root: {
@@ -34,11 +35,15 @@ function DenseAppBar(props) {
             className={classes.menuButton}
             color="inherit"
             aria-label="Menu"
+            tag={Link}
+            to="/"
           >
             <Avatar
               alt="Remy Sharp"
-              src="https://buzzhostingservices.com/images/batman-and-superman-logo.png"
+              src="https://cdn6.aptoide.com/imgs/5/4/a/54a62e19cb4c2ca9510fe5fc90d90dae_icon.png?w=240"
               className={classes.avatar}
+              tag={Link}
+              to={"/"}
             />
           </IconButton>
           <Typography variant="h4" color="inherit" className={classes.nv}>
