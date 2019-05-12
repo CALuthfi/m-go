@@ -7,7 +7,7 @@ const restorants = [
     food: [
       {
         id: "1",
-        nama: "Caramel puccino",
+        nama: "Caramel puco",
         harga: 30000,
         price: 0,
         gambar:

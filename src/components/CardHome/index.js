@@ -1,1 +1,1 @@
-export { default } from "./awws";
+export { default } from "./CardHome";

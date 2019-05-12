@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Grid from "@material-ui/core/Grid";
-import Aww from "./aww";
+import ListCard from "./ListCard";
 
 class Awws extends Component {
   state = {
@@ -49,7 +49,11 @@ class Awws extends Component {
         >
           {this.state.malls.map(mall => (
             <Grid item xs={12} sm={6}>
-              <Aww gambar={mall.gambar} toko={mall.toko} jalan={mall.jalan} />
+              <ListCard
+                gambar={mall.gambar}
+                toko={mall.toko}
+                jalan={mall.jalan}
+              />
             </Grid>
           ))}
         </Grid>

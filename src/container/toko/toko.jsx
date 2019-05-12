@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Coba from "../../components/coba";
+import Coba from "../../components/CardToko";
 import Nav from "../../components/Navbar";
 import Store from "../../Store/store";
 import Grid from "@material-ui/core/Grid";
