@@ -43,15 +43,14 @@ function ImgMediaCard(props) {
             />
           </Grid>
           <Grid item xs={6}>
-            <CardContent>
+            <CardContent style={{ textAlign: "center" }}>
               <Typography gutterBottom variant="h5" component="h2">
                 {props.toko}
               </Typography>
               <Typography component="p">{props.jalan}</Typography>
-
               <Button
                 variant="contained"
-                color="primary"
+                color="secondary"
                 component={Link}
                 to={`/toko/${props.id}`}
               >

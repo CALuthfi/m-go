@@ -28,7 +28,7 @@ function ImgMediaCard(props) {
   const { classes } = props;
 
   return (
-    <CardActionArea component={Link} to="/toko">
+    <CardActionArea>
       <Card className={classes.card}>
         <CardMedia
           component="img"
@@ -42,7 +42,12 @@ function ImgMediaCard(props) {
             {props.toko}
           </Typography>
 
-          <Button variant="contained" color="secondary">
+          <Button
+            component={Link}
+            to="/toko"
+            variant="contained"
+            color="secondary"
+          >
             Kunjungi
           </Button>
         </CardContent>

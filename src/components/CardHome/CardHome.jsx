@@ -9,29 +9,29 @@ class Awws extends Component {
       {
         id: 1,
         gambar:
-          "https://cdn5.f-cdn.com/contestentries/13416/1097701/5277-19-1360157166511259eea27ec/Sample%208_thumb900.jpg",
-        toko: "Go-jajan",
+          "https://ecs7.tokopedia.net/img/cache/700/product-1/2017/2/2/797011/797011_2b7c6875-9ff6-48e7-a15d-77f885f62bad",
+        toko: "Go-Send",
         jalan: "Jln.Gunung Pati semarang"
       },
       {
         id: 2,
         gambar:
           "https://gerobakjuara.com/wp-content/uploads/2018/12/cropped-Logo-Gerobak-Juara-1024x1024-01.png",
-        toko: "Go-grobak",
+        toko: "Go-Food",
         jalan: "Jln.Ngaliyan semarang"
       },
       {
         id: 3,
         gambar:
           "https://image.freepik.com/vecteurs-libre/chef-logo_20448-9.jpg",
-        toko: "Go-makan",
+        toko: "GO-grab",
         jalan: "Jln.Ungaran semarang"
       },
       {
         id: 4,
         gambar:
-          "https://cdn.sribu.com/assets/media/contest_detail/2017/1/desain-logo-untuk-warung-kopi-nongkrong-586d82439d68b11eff4677df/88b1b55b97.jpg",
-        toko: "GO-kopi",
+          "https://ecs7.tokopedia.net/img/cache/700/product-1/2019/1/6/9204966/9204966_0ff949d6-8e91-46ff-b8b0-3ce3ebf3fe56_635_357.jpg",
+        toko: "Go-Jek",
         jalan: "Jln.Mijen semarang"
       }
     ]

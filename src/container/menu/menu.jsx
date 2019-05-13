@@ -153,7 +153,7 @@ export default class Toko extends Component {
             ))}
           </Grid>
           <div style={{ margin: 20 }}>
-            <ExpansionPanel>
+            <ExpansionPanel style={{ backgroundColor: "yellow" }}>
               <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
                 <h3>Orderan Kamu</h3>
               </ExpansionPanelSummary>
@@ -196,7 +196,7 @@ export default class Toko extends Component {
 
               <Button
                 variant="contained"
-                color="primary"
+                color="secondary"
                 component={Link}
                 to="/bayar"
                 onClick={this.beli}

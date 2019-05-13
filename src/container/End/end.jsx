@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Nav from "../../components/Navbar";
 import Card from "../../components/CardBayar";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
-import { Link } from "react-router-dom";
+import Dialog from "../../components/Dialog";
 
 export default class End extends Component {
   componentWillMount() {
@@ -51,16 +50,7 @@ export default class End extends Component {
         <h1 style={{ textAlign: "center" }}>
           Total isi keranjang : Rp.{this.state.total}
         </h1>
-        <Button
-          variant="contained"
-          color="primary"
-          component={Link}
-          to="/"
-          onClick={this.beli}
-          style={{ margin: 10 }}
-        >
-          Konfrim
-        </Button>
+        <Dialog />
       </div>
     );
   }

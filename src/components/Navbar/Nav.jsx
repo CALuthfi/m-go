@@ -16,6 +16,7 @@ const styles = {
     marginLeft: -18,
     marginRight: 10
   },
+  bar: { backgroundColor: "#4fc3f7" },
   nv: {
     fontFamily: "Carter One"
   },
@@ -29,13 +30,13 @@ function DenseAppBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="static" className={classes.bar}>
         <Toolbar variant="dense">
           <IconButton
             className={classes.menuButton}
             color="inherit"
             aria-label="Menu"
-            tag={Link}
+            component={Link}
             to="/"
           >
             <Avatar

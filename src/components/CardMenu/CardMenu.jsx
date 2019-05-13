@@ -11,8 +11,8 @@ import { Link } from "react-router-dom";
 
 const styles = theme => ({
   card: {
-    Width: 500,
-    height: 550
+    Width: 450,
+    height: 510
   },
   button: {
     margin: theme.spacing.unit
@@ -44,7 +44,7 @@ function ImgMediaCard(props) {
           <Typography component="p">Harga: Rp.{props.harga}</Typography>
           <h1>{props.nilai}</h1>
           <Button
-            variant="contained"
+            variant="outlined"
             color="secondary"
             className={classes.button}
             onClick={props.kurang}
